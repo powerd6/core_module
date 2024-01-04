@@ -1,0 +1,6 @@
+title: powerd6 core
+description: |-
+  This is the base powerd6 module, and it contains the basic rules for the system.
+references:
+    powerd6/core_module:
+        - https://github.com/powerd6/core_module
