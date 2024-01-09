@@ -3,6 +3,32 @@
     "powerd6"
   ],
   "git.enableCommitSigning": true,
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/module.json"
+      ],
+      "url": "https://spec.powerd6.org/schemas/module-meta.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/authors/*.json"
+      ],
+      "url": "https://spec.powerd6.org/schemas/authorship.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/content/*.json"
+      ],
+      "url": "https://spec.powerd6.org/schemas/content.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/schema/*.json"
+      ],
+      "url": "https://spec.powerd6.org/schemas/schema.schema.json"
+    },
+  ],
   "yaml.schemas": {
     "https://spec.powerd6.org/schemas/module-meta.schema.json": "module.yaml",
     "https://spec.powerd6.org/schemas/authorship.schema.json": "authors/*.yaml",
